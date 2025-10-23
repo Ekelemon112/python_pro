@@ -1,0 +1,221 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Policy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Travello template project">
+        <link rel="stylesheet" href="{% static 'styles/policy.css' %}">
+        <link href='{% static "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" %}' rel='stylesheet'>
+        <link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
+    </head>
+    <body>
+        <section class="all-body-texts">
+            <div class="num-one-text">
+                <h1>✈️ Travello Airline Help Center</h1>
+                <p>
+                    <span>Welcome to the Travello Help Center </span> <br>
+                    We’re here to make your journey as smooth as possible.
+                    Find answers to common questions, learn how to manage your
+                    bookings, and get support when you need it most.
+                </p>
+            </div>
+            <div class="num-two-text">
+                <h1>🧾 Booking & Reservations</h1>
+                <h1>🧾 How do I book a flight?</h1>
+                <p> 
+                   You can easily book your flight by visiting our Flights page. 
+                   Enter your departure and destination cities, travel dates, and 
+                   number of passengers. Choose your preferred flight, review the details, 
+                   and complete your booking securely online.
+                </p>
+                <!-- ------------------------ -->
+                <h1>Can I make changes to my booking?</h1>
+                <p>
+                    Yes. You can modify your flight details by logging into 
+                    your Travello Account and selecting Manage Booking. Depending 
+                    on your ticket type, you may change travel dates, destinations, 
+                    or passenger details (fees may apply).
+                </p>
+                <!-- ------------------------ -->
+                <h1>How do I cancel a booking?</h1>
+                <p>
+                    To cancel your flight, visit Manage Booking, select your 
+                    reservation, and click Cancel Flight. Refund eligibility 
+                    depends on the fare rules of your ticket.
+                </p>
+                <!-- ------------------------ -->
+                <h1>🧳 Baggage Information</h1>
+                <h1>How much luggage can I take?</h1>
+                <p>
+                    Your free baggage allowance depends on your fare type and destination. 
+                    Details are shown during booking and in your booking confirmation email.
+                </p>
+                <!-- ------------------------- -->
+                <h1>What items are not allowed on board?</h1>
+                <p>
+                    For safety reasons, hazardous materials such as flammable liquids, explosives, 
+                    and certain batteries are prohibited. See our Baggage Policy page for the full list.
+                </p>
+                <!-- ------------------------ -->
+                <h1>Check-In & Boarding</h1>
+                <p>
+                    When does online check-in open? <br>
+                    Online check-in opens 48 hours before departure and closes 2 hours 
+                    before your flight. Log in to your Travello account or use the 
+                    Check-In option on our homepage. <br>
+
+                    What documents do I need to bring?<br>
+                    Please bring a valid passport or government-issued ID, and 
+                    your flight confirmation (printed or digital).
+                </p>
+                <!-- ------------------------ -->
+                <h1>🌍 Travel Assistance</h1>
+                <p>
+                    Do you offer special assistance? <br>
+                    Yes. We provide wheelchair services, priority boarding, and other 
+                    assistance for passengers with reduced mobility or special needs. Contact 
+                    our Customer Care Team at least 48 hours before your flight. <br>
+
+                    What should I do if my flight is delayed or cancelled? <br>
+                    In case of delays or cancellations, Travello will notify you via email 
+                    and SMS. You may rebook your flight or request a refund through Manage Booking..
+                </p>
+                <!-- ------------------------ -->
+                <h1> 📞 Contact Us</h1>
+                <p>
+                    If you need further help, our support team is available 24/7. <br>
+                    Email: support@travelloairline.com <br>
+                    Phone: +1-800-TRAVELLO   <br>
+                    Live Chat: Available on our website  <br>
+                    Office Hours: Monday – Sunday, 8:00 AM – 10:00 PM (local time)
+                </p>
+                <!-- ------------------------ -->
+                <h1>❤️ Thank You for Choosing Travello</h1>
+                <p>
+                    We appreciate your trust in us. Our mission is to make air travel easy, safe, and enjoyable for everyone.
+                    Have a pleasant flight with Travello Airline — Your Journey, Our Passion.
+                </p>
+                <div class="container">
+                    <h2>Would you like to proceed with your Travello booking?</h2>
+                    <div class="buttons">
+                        <button class="yes" onclick="showResponse('yes')">Yes</button>
+                        <button class="no" onclick="showResponse('no')">No</button>
+                    </div>
+                    <p id="response" class="response"></p>
+                </div>
+        </section>
+        <!-- ------------- body-text --------------- -->
+        <section class="body-text">
+            <div class="body-text">
+                <h1>
+                    Your Dream country, Awaits – Get Started Now!
+                </h1>
+                <p>
+                    Are you ready to embark on your travelling journey? Whether you're relocating , Business tirp, family tirp , or
+                    on a vacation, we're here to make it happen for you. Discover how  can travelloairline
+                    turn your dream to reality.
+                </p>
+            </div>
+        </section>
+        <section class="end-body">
+            <div class="end-cards">
+                <div class="end-card-one">
+                    <h1>Travello airline</h1>
+                    <p>
+                        Join our newsletter to stay up to date on features and 
+                        releases.
+                    </p>
+                    <div class="sub-all-button">
+                        <input type="email" name="" id="" placeholder="Enter your email" required> 
+                        <a href="">Subscribe</a>
+                    </div>
+                    <h2>
+                        By subscribing you agree to with our <a href="">Privacy Policy</a> and provide consent to receive
+                        updates from our company.
+                    </h2>
+                </div>
+                <div class="end-card-two">
+                    <div class="list-Pages">
+                        <h1>Pages</h1>
+                        <ul>
+                            <a href="{% url 'index' %}">Home</a>
+                            <a href="dashboard.html">Dashboard</a>
+                            <a href="">About</a>
+                            <a href="">FAQ</a>
+                            <a href="">List Your Place</a>
+                            <a href="">Blogs</a>
+                            <a href="">Contact</a>
+                        </ul>
+                    </div>
+                    <div class="list-Pages">
+                        <h1>Admin</h1>
+                        <ul>
+                            <a href="">Style Guide</a>
+                            <a href="">License</a>
+                            <a href="">Instruction</a>
+                            <a href="">Password</a>
+                            <a href="">404</a>
+                        </ul>
+                    </div>
+                    <div id="social" class="list-Pages">
+                        <h1>Follow us</h1>
+                        <ul>
+                            <a href=""> <span><img src="{% static 'images/Facebook.png' %}" alt=""></span> Facebook</a>
+                            <a href=""> <span><img src="{% static 'images/Instagram.png' %}" alt=""></span> Instagram</a>
+                            <a href=""> <span><img src="{% static 'images/LinkedIn.png' %}" alt=""></span> Linked In</a>
+                            <a href=""> <span><img src="{% static 'images/X.png' %}" alt=""></span> Twitter</a>
+                            <a href=""> <span><img src="{% static 'images/Youtube.png' %}" alt=""></span> Youtube</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="boldness"></div>
+            <div class="powered">
+                <p><span><img src="{% static 'images/copyright.png' %}" alt=""></span> copyright 2024</p>
+                <p>Powered By <a href="https://www.instagram.com/ekelemon_solomon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Solomon</a></p>
+            </div>
+        </section>
+
+        <script src="{% static 'https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js' %}"></script>
+        <script type="module" src="{% static 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js' %}"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="{% static 'js/policy.js' %}"></script>
+        <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+        <script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
+        <script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
+        <script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+        <script src="{% static 'plugins/Isotope/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'plugins/scrollTo/jquery.scrollTo.min.js' %}"></script>
+        <script src="{% static 'plugins/easing/easing.js' %}"></script>
+        <script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+        <script src="{% static 'js/custom.js' %}"></script>
+    </body>
+</html>
+
+<script>
+    function showResponse(answer) {
+        const responseText = document.getElementById('response');
+        if (answer === 'yes') {
+            responseText.textContent = "Great! Redirecting you to the booking page...";
+            responseText.style.color = "#000";
+            setTimeout(() => {
+            window.location.href = "booking.html"; // change to your actual booking page
+            }, 1000);
+        } else {
+            responseText.textContent = "No problem! You can come back anytime.";
+            responseText.style.color = "#000";
+            setTimeout(() => {
+            window.location.href = "dashboard.html"; // change to your actual booking page
+            }, 1000);
+        }
+    }
+</script>

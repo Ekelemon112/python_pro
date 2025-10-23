@@ -1,0 +1,191 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Policy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Travello template project">
+        <link rel="stylesheet" href="{% static 'styles/policy.css' %}">
+        <link href='{% static "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" %}' rel='stylesheet'>
+        <link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
+    </head>
+    <body>
+        <section class="all-body-texts">
+            <div class="num-one-text">
+                <h1>Travello Airline policy</h1>
+                <p>
+                    <span>Introduction </span> <br>
+                    Welcome to Travello Airline. By accessing or using our website,
+                    you agree to comply with and be bound by this Policy. This Policy  
+                    outlines how we collect, use, protect, and manage your personal data, 
+                    as well as the rules for using our services.
+                </p>
+            </div>
+            <div class="num-two-text">
+                <h1>Information We Collect</h1>
+                <p>
+                    When you use our website, we may collect the following information: <br>
+                    => Personal details (name, email address, phone number, passport/ID information). <br>
+                    => Booking and payment details. <br>
+                    => Travel preferences and history. <br>
+                    => Technical data (IP address, browser type, device information). <br>
+                </p>
+                <!-- ------------------------ -->
+                <h1>How We Use Your Information</h1>
+                <p>
+                    We use the collected information for: <br>
+                    => Processing flight bookings and reservations. <br>
+                    => Managing payments and refunds. <br>
+                    => Sending confirmations, updates, and travel-related notifications. <br>
+                    => Improving our services and customer experience. <br>
+                    => Ensuring security, fraud prevention, and regulatory compliance. <br>
+                    => Marketing and promotional communication (only with your consent).
+                </p>
+                <!-- ------------------------ -->
+                <h1>Data Protection</h1>
+                <p>
+                    => Your data will be stored securely and will not be shared with unauthorized third parties. <br>
+                    => Sensitive information (e.g., payment details) is encrypted during transmission. <br>
+                    => We implement industry-standard security measures to protect your data. <br>
+                    => Access to personal data is restricted to authorized staff only.
+                </p>
+                <!-- ------------------------ -->
+                <h1>Cookies & Tracking</h1>
+                <p>
+                    => Our website uses cookies to improve functionality, personalize your experience, and analyze traffic. <br>
+                    => By using our site, you consent to the use of cookies. <br>
+                    => You can manage or disable cookies through your browser settings.
+                </p>
+                <!-- ------------------------ -->
+                <h1>User Responsibilities</h1>
+                <p>
+                   => By using our website, you agree that you will not: <br>
+                   => Misuse the site for fraudulent purposes. <br>
+                   => Attempt to gain unauthorized access to our systems. <br>
+                   => Provide false or misleading information during bookings. <br>
+                   => Violate any applicable laws or airline regulations.
+                </p>
+                <!-- ------------------------ -->
+                <h1>Cancellations & Refunds</h1>
+                <p>
+                    => Cancellation and refund policies are subject to the ticket type purchased. <br>
+                    => Refund requests must comply with Travello Airline’s Terms of Carriage.
+                </p>
+                <!-- ------------------------ -->
+                <h1>Third-Party Services</h1>
+                <p>
+                    Our site may contain links to third-party services (e.g., payment providers). 
+                    We are not responsible for their privacy practices and encourage you to read their policies
+                </p>
+                <!-- ------------------------ -->
+                <h1>Policy Updates</h1>
+                <p>
+                    We may update this policy from time to time. Any changes will 
+                    be posted on this page with the updated date.Continued use of 
+                    the site means you accept these changes.
+                </p>
+                <!-- ------------------------ -->
+                <h1>Contact Us</h1>
+                <p>
+                        For questions or concerns about this policy, please contact us at: <br>
+                        📧 <a href="">support@travelloairline.com</a> <br>
+                        📞 <a href="">+1-800-TRAVELLO</a>
+                </p>
+                <!-- ------------------------ -->
+            </div>
+        </section>
+        <!-- ------------- body-text --------------- -->
+        <section class="body-text">
+            <div class="body-text">
+                <h1>
+                    Your Dream country, Awaits – Get Started Now!
+                </h1>
+                <p>
+                    Are you ready to embark on your travelling journey? Whether you're relocating , Business tirp, family tirp , or
+                    on a vacation, we're here to make it happen for you. Discover how  can travelloairline
+                    turn your dream to reality.
+                </p>
+            </div>
+        </section>
+        <section class="end-body">
+            <div class="end-cards">
+                <div class="end-card-one">
+                    <h1>Travello airline</h1>
+                    <p>
+                        Join our newsletter to stay up to date on features and 
+                        releases.
+                    </p>
+                    <div class="sub-all-button">
+                        <input type="email" name="" id="" placeholder="Enter your email" required> 
+                        <a href="">Subscribe</a>
+                    </div>
+                    <h2>
+                        By subscribing you agree to with our <a href="">Privacy Policy</a> and provide consent to receive
+                        updates from our company.
+                    </h2>
+                </div>
+                <div class="end-card-two">
+                    <div class="list-Pages">
+                        <h1>Pages</h1>
+                        <ul>
+                            <a href="{% url 'index' %}">Home</a>
+                            <a href="dashboard.html">Dashboard</a>
+                            <a href="">About</a>
+                            <a href="">FAQ</a>
+                            <a href="">List Your Place</a>
+                            <a href="">Blogs</a>
+                            <a href="">Contact</a>
+                        </ul>
+                    </div>
+                    <div class="list-Pages">
+                        <h1>Admin</h1>
+                        <ul>
+                            <a href="">Style Guide</a>
+                            <a href="">License</a>
+                            <a href="">Instruction</a>
+                            <a href="">Password</a>
+                            <a href="">404</a>
+                        </ul>
+                    </div>
+                    <div id="social" class="list-Pages">
+                        <h1>Follow us</h1>
+                        <ul>
+                            <a href=""> <span><img src="./file/Facebook.png" alt=""></span> Facebook</a>
+                            <a href=""> <span><img src="./file/Instagram.png" alt=""></span> Instagram</a>
+                            <a href=""> <span><img src="./file/LinkedIn.png" alt=""></span> Linked In</a>
+                            <a href=""> <span><img src="./file/X.png" alt=""></span> Twitter</a>
+                            <a href=""> <span><img src="./file/Youtube.png" alt=""></span> Youtube</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="boldness"></div>
+            <div class="powered">
+                <p><span><img src="./file/copyright.png" alt=""></span> copyright 2024</p>
+                <p>Powered By <a href="https://www.instagram.com/ekelemon_solomon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Solomon</a></p>
+            </div>
+        </section>
+
+        <script src="{% static 'https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js' %}"></script>
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="{% static 'js/policy.js' %}"></script>
+        <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+        <script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
+        <script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
+        <script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+        <script src="{% static 'plugins/Isotope/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'plugins/scrollTo/jquery.scrollTo.min.js' %}"></script>
+        <script src="{% static 'plugins/easing/easing.js' %}"></script>
+        <script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+        <script src="{% static 'js/custom.js' %}"></script>
+    </body>
+</html>

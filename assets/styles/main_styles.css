@@ -133,8 +133,7 @@ h2::selection,
 h3::selection, 
 h4::selection, 
 h5::selection, 
-h6::selection
-{
+h6::selection{
 	
 }
 .form-control
@@ -299,7 +298,7 @@ section
 }
 .main_nav
 {
-	margin-left: 242px;
+	margin-left: 200px;
 }
 .main_nav ul li
 {

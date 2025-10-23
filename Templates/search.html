@@ -1,0 +1,29 @@
+<!-- travello/templates/travello/dashboard/search.html -->
+ <!-- loaded from file:///c%3A/Users/HP%20840%20G3/projects/telusko/Templates/search.html -->
+ {% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Page</title>
+</head>
+    <body>
+        <h1>Search Results</h1>
+        <form method="get" action="{% url 'search' %}">
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit"><ion-icon name="search-outline"></button>
+            <button><a href="{% url 'dashboard' %}">Back</a></button>
+        </form>
+
+       {% if request.user.is_authenticated %}
+            <p>Welcome back, <strong>{{ request.user.username }}</strong>!</p>
+        {% else %}
+            <p>Hello, guest!</p>
+        {% endif %}
+
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
